@@ -3,10 +3,12 @@
     padding: 0;
     margin: 0;
 }
+
 body
 {
     background-color: #f1f2f3;
 }
+
 .header 
 {
     border-radius: 5px;
@@ -15,16 +17,21 @@ body
     width:110%;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
 }
+
 img
 {
+    padding: 0 50%;
 }
-form{
+
+form
+{
     padding: 50px;
     margin: 30px;
     background-color: #ffffff;
 }
 
-.form-header{
+.form-header
+{
     font-family: 'Raleway', sans-serif;
     color: #4b71b0;
 }
