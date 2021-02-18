@@ -23,3 +23,8 @@ form{
     margin: 30px;
     background-color: #ffffff;
 }
+
+.form-header{
+    font-family: 'Raleway', sans-serif;
+    color: #4b71b0;
+}
