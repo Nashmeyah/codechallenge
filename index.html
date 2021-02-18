@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <link type="text/css" rel="stylesheet" href="./style.css">
+        <script src="./index.js"></script>
         <title>Softwise Code Challenge</title>
     </head>
     <body>
         <div class="header"></div>
-        <form class="form" action="/register" method="post">
+        <form name="form" class="form" action="/register" method="post">
             <div class="form-header">
                 <h1>Please enter the following information</h1>
             </div>
@@ -15,16 +16,16 @@
                 <div class="horizontal-group">
                     <div class="form-group left">
                         <label for="ssn" class="label-title">ssn (last 4) xxx-xx-</label>
-                        <input type="text" id="ssn" class="form-input" placeholder="xxxx" required="required" />
+                        <input type="text" id="ssn" class="form-input" placeholder="xxxx" required="required" onKeyup="checkform()"/>
                     </div>
                     <div class="form-group right">
                         <label for="DOB" class="label-title">date of birth</label>
-                        <input type="date" id="DOB" class="form-input" placeholder="mm/dd/yyyy" />
+                        <input type="date" id="DOB" class="form-input" placeholder="mm/dd/yyyy" onKeyup="checkform()"/>
                     </div>
                 </div>
             </div>
             <div class="form-footer">
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" id="submitbutton" disabled="disabled" >
             </div>
         </form>
     </body>
