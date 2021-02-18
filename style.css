@@ -36,7 +36,19 @@ form
     color: #4b71b0;
 }
 
-label{
+label
+{
     color: #a7a7a7;
     font-family: 'Raleway', sans-serif;
+}
+
+.form-footer
+{
+    padding: 10px;
+    float: right;
+}
+
+.submit{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 }
