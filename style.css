@@ -1,3 +1,7 @@
-div.main{
-    background-color: red;
+.header {
+	background-image:url("./img/softwise-logo.png");
+    background-repeat: no-repeat;
+    height:70px;
+	width:110%;
+    margin:-10px;
 }
