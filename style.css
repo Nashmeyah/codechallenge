@@ -7,16 +7,16 @@ body
 {
     background-color: #f1f2f3;
 }
-.header {
+.header 
+{
     border-radius: 5px;
     background-color: #ffffff;
-    background-image:url("./img/softwise-logo.png");
-    background-repeat: no-repeat;
     height:70px;
     width:110%;
-    justify-content: center;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
-    
+}
+img
+{
 }
 form{
     padding: 50px;
