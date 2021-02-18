@@ -1,3 +1,7 @@
+body
+{
+    background-color: #f1f2f3;
+}
 .header {
 	background-image:url("./img/softwise-logo.png");
     background-repeat: no-repeat;
