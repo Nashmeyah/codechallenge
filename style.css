@@ -37,8 +37,6 @@ form
 {
     display: flex;
     flex-direction: column;
-    width: 41%;
-    height: 250px;
     border-radius: 7px;
     background-color: #ffffff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
@@ -49,17 +47,24 @@ form
 
     font-family: 'Raleway', sans-serif;
     color: #4b71b0;
+    padding: 10px 10px 30px 10px;;
 }
 
+h1{
+    font-size: 30px;
+}
 hr
 {
     border-top: 3px solid #f1f2f3;
     width: 100%;
 }
 
-.SSN-feild, .DOB-feild{
-    border: 1px solid red;
-    align-items: center;
+.form-body{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 250px;
+    width: 41%;
 }
 label
 {
@@ -69,6 +74,7 @@ label
 
 .form-footer
 {
+    display: flex;
     padding: 10px;
     justify-content: flex-end;
 }
