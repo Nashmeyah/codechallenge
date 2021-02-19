@@ -26,9 +26,17 @@ img
     justify-content: center;
 }
 
+.form-feild
+{
+    display: flex;
+    justify-content: center;
+    padding: 10% 0%;
+}
+
 form
 {
     display: flex;
+    flex-direction: column;
     width: 41%;
     height: 250px;
     border-radius: 7px;
@@ -41,8 +49,6 @@ form
 
     font-family: 'Raleway', sans-serif;
     color: #4b71b0;
-    justify-content: center;
-    align-items: center;
 }
 
 hr{
@@ -59,7 +65,7 @@ label
 .form-footer
 {
     padding: 10px;
-    float: right;
+    justify-content: flex-end;
 }
 
 .submit

@@ -12,29 +12,31 @@
     </head>
     <body>
         <div class="header"><img src="./img/softwise-logo.png"></div>
-        <form name="form" class="form" action="/register" method="post">
+        <div class="form-feild">
+            <form name="form" class="form" action="/register" method="post">
 
-            <div class="form-header">
-                <h1>Please enter the following information</h1>
-            </div>
-            <hr>
-            <div class="form-body">
-               <div class="SSN-field">
-                    <label for="ssn" class="ssn">ssn (last 4) xxx-xx-</label>
-                    <input type="text" id="ssn" class="form-input" placeholder="xxxx" required="required" onKeyup="checkform()"/>
+                <div class="form-header">
+                    <h1>Please enter the following information</h1>
+                </div>
+                <hr>
+                <div class="form-body">
+                <div class="SSN-field">
+                        <label for="ssn" class="ssn">ssn (last 4) xxx-xx-</label>
+                        <input type="text" id="ssn" class="form-input" placeholder="xxxx" required="required" onKeyup="checkform()"/>
+                    </div>
+
+                    <div class="DOB-feild">
+                        <label for="DOB" class="label-title">date of birth</label>
+                        <input type="date" id="DOB" class="form-input" required="required" placeholder="mm/dd/yyyy" onKeyup="checkform()"/>
+                    </div>
                 </div>
 
-                <div class="DOB-feild">
-                    <label for="DOB" class="label-title">date of birth</label>
-                    <input type="date" id="DOB" class="form-input" required="required" placeholder="mm/dd/yyyy" onKeyup="checkform()"/>
+                <div class="form-footer">
+                    <input type="submit" value="Submit" class="submit">
                 </div>
-            </div>
 
-            <div class="form-footer">
-                <input type="submit" value="Submit" class="submit">
-            </div>
-
-        </form>
+            </form>
+        </div>
 
     </body>
 </html>
