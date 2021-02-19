@@ -25,9 +25,11 @@ img
 
 form
 {
-    position: relative;
-    padding: 50px;
-    margin: 30px;
+    
+    margin: 10% 25%;
+    width: 50%;
+    width: 50%;
+    height: 200px;
     border-radius: 7px;
     background-color: #ffffff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
@@ -37,7 +39,15 @@ form
 {
     font-family: 'Raleway', sans-serif;
     color: #4b71b0;
+    text-align: center;
+    padding: 15px 0px 20px 0px;
+    align-items: flex-start;
 }
+
+hr{
+    border-top: 3px solid #f1f2f3;
+    width: 100%;
+  }
 
 label
 {
