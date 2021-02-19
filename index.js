@@ -2,5 +2,7 @@ function checkform() {
   var f = document.forms["form"].elements;
   var cansubmit = true;
 
-  document.getElementById("submit").disabled = !cansubmit;
+  if (cansubmit) {
+    document.getElementById("submitbutton").disabled = false;
+  }
 }
