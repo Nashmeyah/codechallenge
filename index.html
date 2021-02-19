@@ -13,7 +13,7 @@
     <body>
         <div class="header"><img src="./img/softwise-logo.png"></div>
         <div class="form-feild">
-            <form name="form" class="form" action="/register" method="post">
+            <form name="form" class="form" action="/register" method="post" onKeyup="checkform()">
 
                 <div class="form-header">
                     <h1>Please enter the following information</h1>
@@ -23,15 +23,15 @@
                     <div class="input-feilds">
                         <div class="SSN-feild">
                             <label for="ssn" class="ssn">ssn (last 4) xxx-xx-</label>
-                            <input type="text" id="ssn" class="form-input" placeholder="xxxx" required="required" onKeyup="checkform()"/>
+                            <input type="text" id="ssn" class="form-input" placeholder="xxxx" required="required" />
                         </div>
 
                         <div class="DOB-feild">
                             <label for="DOB" class="DOB">date of birth</label>
-                            <input type="date" id="DOB" class="form-input" required="required" placeholder="mm/dd/yyyy" onKeyup="checkform()"/>
+                            <input type="date" id="DOB" class="form-input" required="required" placeholder="mm/dd/yyyy" />
                         </div>
                         <div class="form-footer">
-                            <input type="submit" value="Submit" class="submit">
+                            <input type="submit" id="submitbutton" value="Submit" class="submit" disabled="disabled">
                         </div>
                 </div>
                 </div>
