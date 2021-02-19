@@ -14,7 +14,7 @@ body
     border-radius: 5px;
     background-color: #ffffff;
     height:70px;
-    width:110%;
+    width:100%;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
 }
 
@@ -25,9 +25,12 @@ img
 
 form
 {
+    position: relative;
     padding: 50px;
     margin: 30px;
+    border-radius: 7px;
     background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
 }
 
 .form-header
@@ -48,7 +51,15 @@ label
     float: right;
 }
 
-.submit{
+.submit
+{
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #a1c55b;
+    box-shadow: 0px 2px 0px 0px #717a5e;
+    border: 0.5px solid #7cb367;
+    border-radius: 15px;
+    padding: 5px 15px;
 }
