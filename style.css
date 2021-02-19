@@ -66,11 +66,17 @@ hr
     width: 100%;
 }
 
+div.input-feilds{
+    display: flex;
+    flex-direction: column;
+}
+
 div.SSN-feild, div.DOB-feild
 {
     align-self: center;
     padding: 5px;
 }
+
 label
 {
     color: #a7a7a7;
@@ -80,7 +86,7 @@ label
 .form-footer
 {
     display: flex;
-    padding: 5% 5% 0;
+    padding: 5% 5% 1%;
     justify-content: flex-end;
 }
 
