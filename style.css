@@ -51,11 +51,16 @@ form
     color: #4b71b0;
 }
 
-hr{
+hr
+{
     border-top: 3px solid #f1f2f3;
     width: 100%;
-  }
+}
 
+.SSN-feild, .DOB-feild{
+    border: 1px solid red;
+    align-items: center;
+}
 label
 {
     color: #a7a7a7;
