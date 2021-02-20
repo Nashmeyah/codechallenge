@@ -96,7 +96,7 @@ td.DOB-data{
 .form-footer
 {
     display: flex;
-    padding: 5%;
+    padding: 1% 5% 5% 0%;
     justify-content: flex-end;
 }
 
