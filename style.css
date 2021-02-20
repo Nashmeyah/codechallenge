@@ -82,7 +82,11 @@ label
 }
 input[type=date] {
     width: 156px;
- }
+}
+
+td.DOB-data{
+    margin: 0;
+}
 
 .form-footer
 {
