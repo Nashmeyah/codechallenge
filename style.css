@@ -60,7 +60,7 @@ hr
 }
 
 .form-body{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     padding: 5% 0px;
     width: 100%;
@@ -75,12 +75,14 @@ div.SSN-feild, div.DOB-feild
 {
     align-self: center;
     padding: 5px;
+    
 }
 
 label
 {
     color: #a7a7a7;
     font-family: 'Raleway', sans-serif;
+    
 }
 
 .form-footer

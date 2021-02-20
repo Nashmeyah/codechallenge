@@ -1,8 +1,8 @@
-function checkform() {
-  var f = document.forms["form"].elements;
-  var cansubmit = true;
+let submitBtn = document.querySelector("submit");
+let ssn = document.querySelector("ssn");
+let DOB = document.querySelector("DOB");
 
-  if (cansubmit) {
-    document.getElementById("submitbutton").disabled = false;
-  }
-}
+ssn.addEventListener("keyup", () => {
+  if (ssn.value.legnth > 4) submitBtn.disabled = true;
+  else submitBtn.disabled = true;
+});
