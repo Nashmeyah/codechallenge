@@ -60,23 +60,11 @@ hr
 }
 
 .form-body{
-    /* display: flex; */
-    flex-direction: column;
+    display: table;
     padding: 5% 0px;
     width: 100%;
 }
 
-div.input-feilds{
-    display: flex;
-    flex-direction: column;
-}
-
-div.SSN-feild, div.DOB-feild
-{
-    align-self: center;
-    padding: 5px;
-    
-}
 
 label
 {
