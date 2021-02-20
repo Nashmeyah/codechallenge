@@ -80,6 +80,10 @@ label
     font-family: 'Raleway', sans-serif;
     
 }
+input{
+    text-indent: 2px;
+    font-family: 'Raleway', sans-serif;
+}
 input[type=date] {
     width: 156px;
     color: #a7a7a7;
