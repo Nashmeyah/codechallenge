@@ -1,10 +1,13 @@
 function checkform() {
-  var f = document.forms["form"].elements;
-  var cansubmit = true;
+  var submitBtn = document.getElementById("submitbutton");
+  var inputs = document.getElementsByTagName("input");
 
-  for (var i = 0; i < f.length; i++) {
-    if (f[i].value.length == 0) cansubmit = false;
+  for (i = 0; i < inputs.length; i++) {
+    if (inputs[i].type == "text" && inputs[i].value == "") {
+      submitBtn.disabled = true;
+      return false;
+    } else {
+      submitBtn.disabled = false;
+    }
   }
-
-  document.getElementById("submitbutton").disabled = !cansubmit;
 }
