@@ -1,4 +1,4 @@
-function checkform() {
+const checkform = () => {
   var submitBtn = document.getElementById("submitbutton");
   var inputs = document.getElementsByTagName("input");
 
@@ -10,4 +10,4 @@ function checkform() {
       submitBtn.disabled = false;
     }
   }
-}
+};
