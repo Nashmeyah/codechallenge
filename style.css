@@ -82,6 +82,11 @@ label
 }
 input[type=date] {
     width: 156px;
+    color: #a7a7a7;
+}
+::placeholder { 
+  color: #a7a7a7;
+  opacity: 1;
 }
 
 td.DOB-data{
